@@ -7,7 +7,7 @@ from time import time_ns
 import pytz
 
 from gammon_datetime.exceptions import InvalidDTypeForConstructor
-from gammon_datetime.gammon_datetime import GammonDateTime
+from gammon_datetime.gdatetime import GammonDateTime
 from gammon_datetime.utils import closest_lower_neighbor, closest_upper_neighbor
 
 
