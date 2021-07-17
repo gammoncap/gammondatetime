@@ -6,9 +6,9 @@ from time import time_ns
 
 import pytz
 
-from crypto.gammon_datetime.exceptions import InvalidDTypeForConstructor
-from crypto.gammon_datetime.gammon_datetime import GammonDateTime
-from crypto.gammon_datetime.utils import closest_lower_neighbor, closest_upper_neighbor
+from gammon_datetime.exceptions import InvalidDTypeForConstructor
+from gammon_datetime.gammon_datetime import GammonDateTime
+from gammon_datetime.utils import closest_lower_neighbor, closest_upper_neighbor
 
 
 class DateTimeTest(unittest.TestCase):

@@ -3,8 +3,8 @@ import dateutil
 import pytz
 from dateutil.parser import parse, isoparse
 
-from crypto.gammon_datetime.exceptions import InvalidDTypeForConstructor, InvalidNumberOfDigits
-from crypto.gammon_datetime.utils import closest_lower_neighbor, get_funding_hour_list_for_exchange, \
+from gammon_datetime.exceptions import InvalidDTypeForConstructor, InvalidNumberOfDigits
+from gammon_datetime.utils import closest_lower_neighbor, get_funding_hour_list_for_exchange, \
     closest_upper_neighbor, ndigits
 
 
